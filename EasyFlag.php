@@ -120,7 +120,7 @@ class EasyFlag{
      * input:[1,2,4],2
      * output:[{"2":0,"1":0},{"4":0,"1":0},{"8":0,"1":0},{"1":0,"2":0},{"4":0,"2":0},{"8":0,"2":0},{"1":0,"4":0},{"2":0,"4":0},{"8":0,"4":0},{"1":0,"8":0},{"2":0,"8":0},{"4":0,"8":0}]
      */
-     function pailie($count){
+     private function pailie($count){
         static $src;
         if(empty($src)){
             foreach($this->src as $v){

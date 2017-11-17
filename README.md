@@ -2,6 +2,7 @@
 # Usage
 ```php
 <?php
+require('EasyFlag.php');
 $flag=new EasyFlag(5);
 
 echo(json_encode($flag->zuhe(1)))."\n";
